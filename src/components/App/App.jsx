@@ -20,7 +20,7 @@ import "./App.css";
 //  */
 
 const TotalTime = 60;
-const ServiceUrl = "http://metaphorpsum.com/paragraphs/1/9";
+// const ServiceUrl = "http://metaphorpsum.com/paragraphs/1/9";
 const DefaultState = {
     selectedParagraph: "Hello World!",
     testInfo: [],
@@ -57,7 +57,7 @@ class App extends React.Component {
     // };
 
     fetchNewParagraph = () => {
-        fetch(ServiceUrl)
+        fetch("http://metaphorpsum.com/paragraphs/1/9")
             .then((response) => response.text())
             .then((data) => {
                 // Once the api results are here, break the selectedParagraph into test info

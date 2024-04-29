@@ -270,6 +270,11 @@ class App extends React.Component {
                     selectedParagraph: data,
                     testInfo,
                 });
+            })
+            .catch((error) => {
+                console.error("Error fetching paragraph:", error);
+                // If there's an error fetching over HTTPS, fall back to the non-secure method
+                this.fetchNewParagraphFallback();
             });
     };
 

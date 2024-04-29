@@ -2,7 +2,7 @@
   "name": "flashtype",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/chandrashekhar-pawar123/flashtype/",
+  "homepage": "https://chandrashekhar-pawar123.github.io/flashtype",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

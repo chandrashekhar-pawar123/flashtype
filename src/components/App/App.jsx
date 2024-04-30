@@ -250,7 +250,7 @@ class App extends React.Component {
     };
 
     fetchNewParagraph = () => {
-        fetch("http://metaphorpsum.com/paragraphs/1/9")
+        fetch("https://metaphorpsum.com/paragraphs/1/9")
             .then((response) => response.text())
             .then((data) => {
                 // Once the api results are here, break the selectedParagraph into test info
